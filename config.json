@@ -1,0 +1,14 @@
+{
+  "system_name": "My awesome project",
+  "acceptable_formats": [
+    "books\\.xlsx",
+    "book.+input\\.xlsx",
+    "penguin_input_[0-9]{5,10}(\\.xlsx|\\.csv)"
+  ],
+  "data_folder": "data/input",
+  "archive_folder": "data/archive",
+  "api_endpoints": {
+    "author_search": "https://openlibrary.org/search/authors.json?q=",
+    "book_search": "https://openlibrary.org/search.json?title="
+  }
+}
